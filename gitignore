@@ -1,0 +1,175 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Preferences and Local Config
+preferences.yaml
+preferences-local.yaml
+config-local.yaml
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# Build Artifacts
+dist/
+build/
+*.whl
+
+# Documentation
+site/
+docs/_build/
+
+# IDE Workspace
+.workspace
+workspace.code-workspace
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# Credentials and Secrets (NEVER COMMIT)
+*.pem
+*.key
+*.crt
+*.p12
+secrets.yaml
+credentials.json
+.aws/
+.azure/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Package Manager
+package-lock.json
+poetry.lock
+Pipfile.lock
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Node (if using any Node tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE Generated Files
+*.iml
+*.iws
+*.ipr
+
+# MacOS Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git
+.git/
+.gitmodules
+
+# Local Development
+local/
+.local/
+
+# User preferences (don't track these)
+.claude-preferences.yaml
+*.local.yaml
